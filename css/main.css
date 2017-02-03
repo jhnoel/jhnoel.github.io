@@ -16,6 +16,9 @@ a {
     text-decoration: none;
     color: #4169E1;
 }
+nav a {
+    color: #546178;
+}
 a:hover {
     text-decoration: underline;
 }
