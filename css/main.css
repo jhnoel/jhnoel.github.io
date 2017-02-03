@@ -45,4 +45,5 @@ ul.posts li {
 div.blurb {
     -moz-border-radius: 15px;
     border-radius: 15px;
+    color: #111 ;
 }
