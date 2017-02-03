@@ -42,7 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-div.blurb {
+.blurb {
     -moz-border-radius: 15px;
     border-radius: 15px;
     background-color: #999 ;
