@@ -1,2 +1,4 @@
 name: James H Noel
 markdown: kramdown
+
+theme: jekyll-theme-slate
