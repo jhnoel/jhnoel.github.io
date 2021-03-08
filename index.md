@@ -2,6 +2,8 @@
 layout: default
 title: Projects - Jamie Noel
 ---
+# Welcome
+![Image](https://github.com/jhnoel/jhnoel.github.io/raw/master/mossy%20bank%20wide%20small.jpg)
 
 # Projects
 	
