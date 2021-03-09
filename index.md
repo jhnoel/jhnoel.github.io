@@ -2,7 +2,7 @@
 layout: default
 title: Projects - Jamie Noel
 ---
-# Welcome
+# Welcome - SITE UNDER CONSTRUCTION
 
 This page collects information about my projects, which mainly involve electronics or photography.  
 
