@@ -1,0 +1,9 @@
+baseURL = 'https://jhnoel.github.io/'
+languageCode = 'en-us'
+title = 'JH Noel'
+theme = 'bearblog'
+
+[params]
+  description = "Personal site of JH Noel"
+  author = "JH Noel"
+  copyright = "© {{ now.Year }} JH Noel"

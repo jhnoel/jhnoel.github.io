@@ -1,0 +1,16 @@
+name = "Bear Blog"
+license = "MIT"
+licenselink = "https://github.com/janlindblom/hugo-theme-bearblog/blob/main/LICENSE"
+description = "A minimal theme inspired by Bear Blog"
+homepage = "https://github.com/janlindblom/hugo-theme-bearblog"
+tags = ["blog", "minimal", "personal"]
+features = ["blog", "rss"]
+
+[author]
+  name = "Jan Lindblom"
+  homepage = "https://github.com/janlindblom"
+
+[original]
+  author = "Bear Blog"
+  homepage = "https://bearblog.dev"
+  repo = "https://github.com/HermanMartinus/bearblog"

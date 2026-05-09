@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article>
+  {{ .Content }}
+  {{ $posts := where .Site.RegularPages "Type" "posts" }}
+  {{ if $posts }}
+  <h2>Posts</h2>
+  <ul>
+    {{ range $posts }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <small>{{ .Date.Format "2006-01-02" }}</small>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</article>
+{{ end }}
