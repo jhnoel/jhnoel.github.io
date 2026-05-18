@@ -1,42 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on JH Noel</title><link>https://jamienoel.com/</link><description>Recent content in Home on JH Noel</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 09 May 2026 06:46:27 +0000</lastBuildDate><atom:link href="https://jamienoel.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://jamienoel.com/posts/welcome/</link><pubDate>Sat, 09 May 2026 06:46:27 +0000</pubDate><guid>https://jamienoel.com/posts/welcome/</guid><description>A short introduction to the site and the topics I plan to write about.</description></item><item><title>About</title><link>https://jamienoel.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jamienoel.com/about/</guid><description>&lt;p&gt;I am an attorney and engineer with interests in patent law, optimization, machine learning, and mechanical systems.&lt;/p&gt;
-&lt;h2 id="professional"&gt;Professional&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Associate, &lt;a href="https://www.dority-manning.com/our-team/james-h-noel/"&gt;Dority &amp;amp; Manning PA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="education"&gt;Education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Duke University School of Law (J.D., cum laude, 2021)&lt;/li&gt;
-&lt;li&gt;Clemson University (M.S., Mechanical Engineering, 2017)&lt;/li&gt;
-&lt;li&gt;Clemson University (B.S., Mechanical Engineering, summa cum laude, 2016)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="admissions"&gt;Admissions&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;South Carolina&lt;/li&gt;
-&lt;li&gt;U.S. Patent and Trademark Office&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="professional-activities"&gt;Professional Activities&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Greenville County Bar Association&lt;/li&gt;
-&lt;li&gt;South Carolina Bar Association&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="honors"&gt;Honors&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Member, Order of the Coif&lt;/li&gt;
-&lt;li&gt;Research Editor, Duke Law Journal&lt;/li&gt;
-&lt;li&gt;Dean&amp;rsquo;s Award, Criminal Law, Duke Law&lt;/li&gt;
-&lt;li&gt;Faculty Scholarship Award, Clemson University&lt;/li&gt;
-&lt;li&gt;Eastman Chemical Award for Excellence, Clemson University&lt;/li&gt;
-&lt;li&gt;Tau Beta Pi Engineering Honor Society&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="publications"&gt;Publications&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;M. Gagliano et al., Federal Circuit Provides Guidance on Prior Art Authentication and Publication Challenges, Dority &amp;amp; Manning (August 26, 2021).&lt;/li&gt;
-&lt;li&gt;J. Noel et al., A Time-Implicit Representation of the Lift Force for Coupled Translational-Rotational Galloping, 103 Nonlinear Dynamics 2183 (2021).&lt;/li&gt;
-&lt;li&gt;M.F. Daqaq et al., Micropower Generation Using Cross-Flow Instabilities: A Review of the Literature and Its Implications, 141 J. Vibration &amp;amp; Acoustics (2019).&lt;/li&gt;
-&lt;li&gt;J. Noel et al., Improving the Performance of Galloping Micro-Power Generators by Passively Manipulating the Trailing Edge, 112 Applied Physics Letters (2018).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="contact"&gt;Contact&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/jhnoel"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://linkedin.com/in/jhnoel"&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Jamie Noel</title><link>https://jamienoel.com/</link><description>Recent content in Home on Jamie Noel</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 09 May 2026 06:46:27 +0000</lastBuildDate><atom:link href="https://jamienoel.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://jamienoel.com/posts/welcome/</link><pubDate>Sat, 09 May 2026 06:46:27 +0000</pubDate><guid>https://jamienoel.com/posts/welcome/</guid><description>&lt;p&gt;This is my personal site, built with &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; and hosted on GitHub Pages.&lt;/p&gt;
+&lt;p&gt;I use this space to write about mathematics, programming, and other topics that interest me.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The site supports &lt;strong&gt;LaTeX math rendering&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Euler&amp;rsquo;s identity:
+&lt;span class="katex"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt; e^{i\pi} + 1 = 0 &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;And display equations:&lt;/p&gt;
+&lt;span class="katex"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="block"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msubsup&gt;&lt;mo&gt;∫&lt;/mo&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;∞&lt;/mi&gt;&lt;/mrow&gt;&lt;mi mathvariant="normal"&gt;∞&lt;/mi&gt;&lt;/msubsup&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msqrt&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/msqrt&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;</description></item></channel></rss>
