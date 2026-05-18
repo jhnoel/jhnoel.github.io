@@ -1,18 +1,41 @@
 baseURL = 'https://jamienoel.com/'
 locale = 'en-US'
-title = 'JH Noel'
-theme = 'hugo-flex'
+title = 'Jamie Noel'
+theme = 'etch'
+enableRobotsTXT = true
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    title = 'Posts'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    title = 'About'
+    url = '/about/'
+    weight = 20
+
+[permalinks]
+  posts = '/posts/:slug/'
 
 [params]
-  description = "Personal site of JH Noel"
-  author = { name = "JH Noel" }
+  description = "Personal site of Jamie Noel"
   copyright = "(c) James H Noel 2026"
-  footer = "(c) James H Noel 2026 · <a href='https://github.com/jhnoel'>GitHub</a> · <a href='https://linkedin.com/in/jhnoel'>LinkedIn</a>"
-  color = "teal"
-  width = "42rem"
-  favicon = false
+  dark = "auto"
+  highlight = true
+  mainSections = ["posts"]
 
 [markup]
+  [markup.tableOfContents]
+    ordered = true
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.goldmark]
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]

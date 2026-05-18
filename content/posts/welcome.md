@@ -1,6 +1,7 @@
 +++
 title = 'Welcome'
 date = 2026-05-09T06:46:27Z
+summary = 'A short introduction to the site and the topics I plan to write about.'
 +++
 
 This is my personal site, built with [Hugo](https://gohugo.io/) and hosted on GitHub Pages.

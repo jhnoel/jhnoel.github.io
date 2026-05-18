@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://jamienoel.com/</loc><lastmod>2026-05-09T06:46:27+00:00</lastmod></url><url><loc>https://jamienoel.com/posts/</loc><lastmod>2026-05-09T06:46:27+00:00</lastmod></url><url><loc>https://jamienoel.com/posts/welcome/</loc><lastmod>2026-05-09T06:46:27+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/machine-learning/</loc><lastmod>2026-05-08T10:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/mathematics/</loc><lastmod>2026-05-08T10:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/posts/placeholder-ml/</loc><lastmod>2026-05-08T10:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/optimization/</loc><lastmod>2026-05-08T10:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/</loc><lastmod>2026-05-08T10:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/posts/placeholder-eigenvalues/</loc><lastmod>2026-05-05T14:30:00+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/linear-algebra/</loc><lastmod>2026-05-05T14:30:00+00:00</lastmod></url><url><loc>https://jamienoel.com/posts/placeholder-code/</loc><lastmod>2026-05-01T09:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/programming/</loc><lastmod>2026-05-01T09:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/tags/python/</loc><lastmod>2026-05-01T09:00:00+00:00</lastmod></url><url><loc>https://jamienoel.com/about/</loc></url><url><loc>https://jamienoel.com/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-09T06:46:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-05-09T06:46:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/welcome/</loc>
+    <lastmod>2026-05-09T06:46:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,11 @@
+<li>
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+        <small><time>{{ .Date | time.Format (i18n "posts.date") }}</time></small>
+    </a>
+    {{ with .Summary }}
+    <small style="display:block;margin:2px 0 12px 0;">
+        {{ . | plainify }}
+    </small>
+    {{ end }}
+</li>
