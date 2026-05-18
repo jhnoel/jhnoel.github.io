@@ -14,7 +14,8 @@ build_dir="$(mktemp -d)"
 trap 'rm -rf "$build_dir"' EXIT
 
 hugo --minify --destination "$build_dir"
-rsync -a --delete --exclude '.git' "$build_dir/" "$main_worktree/"
+find "$main_worktree" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+rsync -a "$build_dir/" "$main_worktree/"
 
 cd "$main_worktree"
 git add -A
