@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  
-  <meta charset="utf-8">
-
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  
-    <meta name="description" content="Using context managers for clean resource management:
+<!doctype html><html lang=en-US><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content='Using context managers for clean resource management:
 
   
 
@@ -19,172 +6,20 @@ from contextlib import contextmanager
 
 @contextmanager
 def managed_resource(name):
-    print(f&#34;Acquiring {name}...&#34;)
+    print(f"Acquiring {name}...")
     yield name
-    print(f&#34;Releasing {name}...&#34;)
+    print(f"Releasing {name}...")
 
-with managed_resource(&#34;lock&#34;) as r:
-    print(f&#34;Using resource: {r}&#34;)
-This ensures cleanup happens even if exceptions occur.">
-  
-
-
-<meta name="color-scheme" content="light dark">
-
-
-
-
-
-
-
-<meta name="generator" content="Hugo 0.161.1">
-  <title>A Useful Python Pattern | JH Noel</title>
-  <link href="https://jhnoel.github.io/posts/placeholder-code/" rel="canonical">
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-  
-      <link href="/css/base.min.3d9ec2cc2bb3815b071caef30d90366883296ea56056367e6240c0df8637bb9d.css" rel="stylesheet" integrity="sha256-PZ7CzCuzgVsHHK7zDZA2aIMpbqVgVjZ&#43;YkDA34Y3u50=" crossorigin="anonymous">
-
-      <link href="/css/syntax.min.7b52ae1c0189ea3933cdf9f0503a11a4fc7a03c07e4fa61774cd2bbe3fac0575.css" rel="stylesheet" integrity="sha256-e1KuHAGJ6jkzzfnwUDoRpPx6A8B&#43;T6YXdM0rvj&#43;sBXU=" crossorigin="anonymous">
-
-
-
-</head>
-
-<body>
-  <nav class="u-background">
-  <div class="u-wrapper">
-    <ul class="Banner">
-      <li class="Banner-item Banner-item--title">
-        
-          <a class="Banner-link u-clickable" href="/">JH Noel</a>
-        
-      </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/about/">About</a>
-        </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/">Posts</a>
-        </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/tags/">Tags</a>
-        </li>
-      
-        
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/categories/">Categories</a>
-        </li>
-      
-        
-        
-          
-        
-        <li class="Banner-item">
-          <a class="Banner-link u-clickable" href="/feed.xml">RSS</a>
-        </li>
-      
-    </ul>
-  </div>
-</nav>
-
-  <main>
-    <div class="u-wrapper">
-      <div class="u-padding">
-        
-
-  
-  <header class="Heading">
-  <h1 class="Heading-title">
-    <a class="Heading-link u-clickable" href="/posts/placeholder-code/" rel="bookmark">A Useful Python Pattern</a>
-  </h1>
-  
-    
-      <time datetime="2026-05-01T09:00:00Z">May 1, 2026</time>
-    
-  
-</header>
-  <p>Using context managers for clean resource management:</p>
-
-  
-
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> contextlib <span style="color:#f92672">import</span> contextmanager
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@contextmanager</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">managed_resource</span>(name):
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Acquiring </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">...&#34;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">yield</span> name
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Releasing </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">...&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> managed_resource(<span style="color:#e6db74">&#34;lock&#34;</span>) <span style="color:#66d9ef">as</span> r:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Using resource: </span><span style="color:#e6db74">{</span>r<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)</span></span></code></pre></div>
-<p>This ensures cleanup happens even if exceptions occur.</p>
-
-  
-
-  
-
-  
-
-
-
-
-
-  <footer>
-    
-      
-    
-      
-        <p>
-          <a href="/tags/python/" rel="tag">Python</a>
-           · <a href="/tags/programming/" rel="tag">Programming</a>
-          
-        </p>
-      
-    
-  </footer>
-
-
-  
-  
-
-
-
-      </div>
-    </div>
-  </main>
-  
-  <footer class="Footer">
-    <div class="u-wrapper">
-      <div class="u-padding u-noboosting">
-        (c) James H Noel 2026 · <a href='https://github.com/jhnoel'>GitHub</a> · <a href='https://linkedin.com/in/jhnoel'>LinkedIn</a>
-      </div>
-    </div>
-  </footer>
-
-</body>
-
-</html>
+with managed_resource("lock") as r:
+    print(f"Using resource: {r}")
+This ensures cleanup happens even if exceptions occur.'><meta name=color-scheme content="light dark"><meta name=generator content="Hugo 0.161.1"><title>A Useful Python Pattern | JH Noel</title><link href=https://jamienoel.com/posts/placeholder-code/ rel=canonical><link href=/css/base.min.3d9ec2cc2bb3815b071caef30d90366883296ea56056367e6240c0df8637bb9d.css rel=stylesheet integrity="sha256-PZ7CzCuzgVsHHK7zDZA2aIMpbqVgVjZ+YkDA34Y3u50=" crossorigin=anonymous><link href=/css/syntax.min.7b52ae1c0189ea3933cdf9f0503a11a4fc7a03c07e4fa61774cd2bbe3fac0575.css rel=stylesheet integrity="sha256-e1KuHAGJ6jkzzfnwUDoRpPx6A8B+T6YXdM0rvj+sBXU=" crossorigin=anonymous></head><body><nav class=u-background><div class=u-wrapper><ul class=Banner><li class="Banner-item Banner-item--title"><a class="Banner-link u-clickable" href=/>JH Noel</a></li><li class=Banner-item><a class="Banner-link u-clickable" href=/about/>About</a></li><li class=Banner-item><a class="Banner-link u-clickable" href=/>Posts</a></li><li class=Banner-item><a class="Banner-link u-clickable" href=/tags/>Tags</a></li><li class=Banner-item><a class="Banner-link u-clickable" href=/categories/>Categories</a></li><li class=Banner-item><a class="Banner-link u-clickable" href=/feed.xml>RSS</a></li></ul></div></nav><main><div class=u-wrapper><div class=u-padding><header class=Heading><h1 class=Heading-title><a class="Heading-link u-clickable" href=/posts/placeholder-code/ rel=bookmark>A Useful Python Pattern</a></h1><time datetime=2026-05-01T09:00:00Z>May 1, 2026</time></header><p>Using context managers for clean resource management:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>from</span> contextlib <span style=color:#f92672>import</span> contextmanager
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>@contextmanager</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>managed_resource</span>(name):
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Acquiring </span><span style=color:#e6db74>{</span>name<span style=color:#e6db74>}</span><span style=color:#e6db74>...&#34;</span>)
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>yield</span> name
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Releasing </span><span style=color:#e6db74>{</span>name<span style=color:#e6db74>}</span><span style=color:#e6db74>...&#34;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>with</span> managed_resource(<span style=color:#e6db74>&#34;lock&#34;</span>) <span style=color:#66d9ef>as</span> r:
+</span></span><span style=display:flex><span>    print(<span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;Using resource: </span><span style=color:#e6db74>{</span>r<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>)</span></span></code></pre></div><p>This ensures cleanup happens even if exceptions occur.</p><footer><p><a href=/tags/python/ rel=tag>Python</a>
+· <a href=/tags/programming/ rel=tag>Programming</a></p></footer></div></div></main><footer class=Footer><div class=u-wrapper><div class="u-padding u-noboosting">(c) James H Noel 2026 · <a href=https://github.com/jhnoel>GitHub</a> · <a href=https://linkedin.com/in/jhnoel>LinkedIn</a></div></div></footer></body></html>
