@@ -6,7 +6,7 @@ I am an attorney and engineer with interests in patent law, optimization, machin
 
 ## Professional
 
-- Associate, [Dority & Manning PLLC](https://www.dority-manning.com/our-team/james-h-noel/)
+- Associate, [Dority & Manning PA](https://www.dority-manning.com/our-team/james-h-noel/)
 
 ## Education
 
@@ -39,8 +39,6 @@ I am an attorney and engineer with interests in patent law, optimization, machin
 - J. Noel et al., A Time-Implicit Representation of the Lift Force for Coupled Translational-Rotational Galloping, 103 Nonlinear Dynamics 2183 (2021).
 - M.F. Daqaq et al., Micropower Generation Using Cross-Flow Instabilities: A Review of the Literature and Its Implications, 141 J. Vibration & Acoustics (2019).
 - J. Noel et al., Improving the Performance of Galloping Micro-Power Generators by Passively Manipulating the Trailing Edge, 112 Applied Physics Letters (2018).
-- **Leveraging Low-Fidelity Models in Gradient-Based Optimization of Ballistic Launch Vehicles**, *ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, 2016. [doi:10.1115/DETC2016-60156](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2016/V006T09A046/258995)
-- **High Fidelity Multi-Disciplinary Optimization of a Ballistic Missile**, Master's thesis, Clemson University, 2015. [ProQuest](https://www.proquest.com/openview/30774b7716cda7c36caa75ac5610a21c/1?pq-origsite=gscholar&cbl=18750)
 
 ## Contact
 
