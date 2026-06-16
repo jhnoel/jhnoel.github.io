@@ -28,8 +28,8 @@
         {{ $resources = $resources | append . -}}
     {{ end -}}
 
-    {{ $css := $resources | resources.Concat "css/style.css" | minify }}
-    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+    {{ $css := $resources | resources.Concat "css/style.css" | minify | fingerprint }}
+    {{ printf `<link rel="stylesheet" href="%s" integrity="%s">` $css.RelPermalink $css.Data.Integrity | safeHTML }}
 
     <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>
