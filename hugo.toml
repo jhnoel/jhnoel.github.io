@@ -12,14 +12,20 @@ pygmentsUseClasses = true
     identifier = 'posts'
     name = 'Posts'
     title = 'Posts'
-    url = '/'
+    url = '/posts/'
     weight = 10
   [[menu.main]]
-    identifier = 'about'
-    name = 'About'
-    title = 'About'
-    url = '/about/'
+    identifier = 'publications'
+    name = 'Publications'
+    title = 'Publications'
+    url = '/publications/'
     weight = 20
+  [[menu.main]]
+    identifier = 'photography'
+    name = 'Photography'
+    title = 'Photography'
+    url = '/photography/'
+    weight = 30
 
 [permalinks]
   posts = '/posts/:slug/'

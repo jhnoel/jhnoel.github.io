@@ -1,0 +1,13 @@
+<header id="banner">
+    <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.main.ByWeight -}}
+            <li>
+                {{ $isCurrent := or (eq $.RelPermalink .URL) (and (ne .URL "/") (strings.HasPrefix $.RelPermalink .URL)) }}
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"{{ if $isCurrent }} class="active" aria-current="page"{{ end }}>{{- .Name -}}</a>{{ .Post }}
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

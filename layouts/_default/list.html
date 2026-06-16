@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ if eq .Section "posts" }}
+    {{ with .Site.Taxonomies.tags }}
+    <h3>Topics</h3>
+    <ul id="topics">
+        {{ range .Alphabetical }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+{{ end }}
+{{- partial "posts.html" . -}}
+{{ end }}

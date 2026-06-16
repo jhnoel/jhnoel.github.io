@@ -1,6 +1,6 @@
 <li>
     <a href="{{ .RelPermalink }}">
-        {{ .Title }}
+        <em>{{ .Title }}</em>
         <small><time>{{ .Date | time.Format (i18n "posts.date") }}</time></small>
     </a>
     {{ with .Summary }}

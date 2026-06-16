@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter/inter-regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter/inter-italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter/inter-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter/inter-bolditalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+header#banner nav ul {
+    text-transform: none;
+}
+
+header#banner nav ul li a:hover,
+header#banner nav ul li a.active {
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+
+main#content ul#topics {
+    list-style-type: none;
+    margin-top: 6px;
+    padding: 0;
+}
+
+main#content ul#topics li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main#content ul#posts li > a {
+    font-style: italic;
+}
+
+main#content ul#posts li > a small {
+    font-style: normal;
+}
+
+main#content .post-footer-rule {
+    margin-top: 32px;
+}
+
+main#content .post-footer-note {
+    font-style: italic;
+}
+
+main#content .about-intro {
+    display: grid;
+    grid-template-columns: 128px 1fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+main#content img.about-photo {
+    width: 128px;
+    height: 128px;
+    margin: 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main#content .about-intro-text p:first-child {
+    margin-top: 0;
+}
+
+main#content .about-intro-text p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 520px) {
+    main#content .about-intro {
+        display: block;
+    }
+
+    main#content img.about-photo {
+        display: block;
+        margin: 0 0 16px 0;
+    }
+}
