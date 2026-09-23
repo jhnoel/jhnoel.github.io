@@ -20,12 +20,6 @@ pygmentsUseClasses = true
     title = 'Publications'
     url = '/publications/'
     weight = 20
-  [[menu.main]]
-    identifier = 'photography'
-    name = 'Photography'
-    title = 'Photography'
-    url = '/photography/'
-    weight = 30
 
 [permalinks]
   posts = '/posts/:slug/'

@@ -1,7 +1,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ with .Site.Params.description -}}
+    {{ $description := .Site.Params.description -}}
+    {{ with .Params.description -}}
+        {{ $description = . -}}
+    {{ else with .Params.summary -}}
+        {{ $description = . -}}
+    {{ end }}
+    {{ with $description -}}
     <meta name="description" content="{{ . }}">
     {{ end }}
     {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
@@ -32,5 +38,16 @@
     {{ printf `<link rel="stylesheet" href="%s" integrity="%s">` $css.RelPermalink $css.Data.Integrity | safeHTML }}
 
     <link rel="canonical" href="{{ .Permalink }}" />
-    <title>{{ .Title }}</title>
+    {{ $pageTitle := .Site.Title -}}
+    {{ if eq .Kind "404" -}}
+        {{ $pageTitle = printf "Page not found · %s" .Site.Title -}}
+    {{ else if and (not .IsHome) .Title -}}
+        {{ $pageTitle = printf "%s · %s" .Title .Site.Title -}}
+    {{ end }}
+    <title>{{ $pageTitle }}</title>
+    <meta property="og:title" content="{{ $pageTitle }}">
+    {{ with $description -}}
+    <meta property="og:description" content="{{ . }}">
+    {{ end }}
+    <meta property="og:url" content="{{ .Permalink }}">
 </head>

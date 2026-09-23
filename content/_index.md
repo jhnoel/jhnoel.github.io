@@ -9,6 +9,6 @@ title = 'Jamie Noel'
   </div>
 </div>
 
-I'd love to hear from you, send me a note: **hello at jamie noel dot com**
+Feel free to send me a note: **hello at jamie noel dot com**
 
 [GitHub](https://github.com/jhnoel) - [LinkedIn](https://linkedin.com/in/jhnoel)
